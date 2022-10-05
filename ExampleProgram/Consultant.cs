@@ -20,7 +20,7 @@
 
         public override string ToString()
         {
-            return Name + " is in the " + Practice + " practice with a compensation of  " + GetPay() + " .";
+            return $"{Name} is in the {Practice} practice with a compensation of {GetPay()}";
         }
     }
 }

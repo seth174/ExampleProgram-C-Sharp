@@ -2,15 +2,15 @@
 {
    public class Manager : Consultant
     {
-        private decimal bonus;
+        private decimal _bonus;
         public Manager(string name, string practice, int salary, decimal bonus) : base(name, practice, salary)
         {
-            this.bonus = bonus;
+            _bonus = bonus;
         }
 
         public override decimal GetPay()
         {
-            return _salary + bonus;
+            return _salary + _bonus;
         }
     }
 }
