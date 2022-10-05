@@ -6,7 +6,7 @@ public class Program
     {
 
         Consultant joe = new Consultant("Joe", "PXEL", 15);
-        Consultant jimmy = new Manager("Jimmy", "PXEL", 15, 5);
+        Consultant jimmy = new ExperiencedConsultant("Jimmy", "PXEL", 15, 5);
 
         ICollection<Consultant> consultants = new List<Consultant>()
         {

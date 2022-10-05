@@ -1,9 +1,9 @@
 ﻿namespace ExampleProgram
 {
-   public class Manager : Consultant
+   public class ExperiencedConsultant : Consultant
     {
         private decimal _bonus;
-        public Manager(string name, string practice, int salary, decimal bonus) : base(name, practice, salary)
+        public ExperiencedConsultant(string name, string practice, int salary, decimal bonus) : base(name, practice, salary)
         {
             _bonus = bonus;
         }

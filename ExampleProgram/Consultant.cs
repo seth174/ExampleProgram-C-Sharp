@@ -13,6 +13,11 @@
             _salary = salary;
         }
 
+        public void SetSalary(decimal salary)
+        {
+            _salary = salary;
+        }
+
         public virtual decimal GetPay()
         {
             return _salary;
