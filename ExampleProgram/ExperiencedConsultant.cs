@@ -10,7 +10,7 @@
 
         public override decimal GetPay()
         {
-            return _salary + _bonus;
+            return Salary + _bonus;
         }
     }
 }

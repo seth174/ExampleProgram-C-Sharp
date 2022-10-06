@@ -4,23 +4,18 @@
     {
         public string Name { get; set; }
         public string Practice { get; set; }
-        protected decimal _salary;
+        protected decimal Salary { get; set; }
 
         public Consultant(string name, string practice, decimal salary)
         {
             Name = name;
             Practice = practice;
-            _salary = salary;
-        }
-
-        public void SetSalary(decimal salary)
-        {
-            _salary = salary;
+            Salary = salary;
         }
 
         public virtual decimal GetPay()
         {
-            return _salary;
+            return Salary;
         }
 
         public override string ToString()
